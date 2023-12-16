@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "cycletitlescreensplash",
+  "version": "1.0",
+
+  "name": "Cycle Title Screen Splash",
+  "description": "The splash text on the main menu will keep changing after a configurable delay.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/cycle-title-screen-splash",
+    "sources": "https://github.com/Serilum/Cycle-Title-Screen-Splash",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Cycle%20Title%20Screen%20Splash"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.cycletitlescreensplash.ModFabric" ], "modmenu": [ "com.natamus.cycletitlescreensplash.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "cycletitlescreensplash_fabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17",
+    "collective": ">=7.16"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://ricksouth.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Adam E",
+	  " Alister",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " FireStriker",
+	  " Greg Johnson",
+	  " Kreezxil",
+	  " Michael W. S.",
+	  " Mir3JonCZ",
+	  " Rebecca Hb.",
+	  " Shana Gitnick",
+	  " silver Bowsman",
+	  " Tyler Behl"
+  ]
+}
