@@ -6,9 +6,9 @@ logoFile="icon.png"
 
 [[mods]]
 modId="cycletitlescreensplash"
-version="1.0"
+version="1.1"
 displayName="Cycle Title Screen Splash"
-displayURL="https://curseforge.com/minecraft/mc-mods/cycle-title-screen-splash"
+displayURL="https://serilum.com/mod/cycle-title-screen-splash"
 authors="Rick South"
 description='''The splash text on the main menu will keep changing after a configurable delay.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.cycletitlescreensplash]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.16,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.cycletitlescreensplash]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.2]"
     ordering="NONE"
