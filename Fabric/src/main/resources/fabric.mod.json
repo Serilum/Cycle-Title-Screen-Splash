@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "id": "cycletitlescreensplash",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Cycle Title Screen Splash",
   "description": "The splash text on the main menu will keep changing after a configurable delay.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/cycle-title-screen-splash",
+    "homepage": "https://serilum.com/mod/cycle-title-screen-splash",
     "sources": "https://github.com/Serilum/Cycle-Title-Screen-Splash",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Cycle%20Title%20Screen%20Splash"
   },
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.16"
+    "collective": ">=7.21"
   },
 
   "custom": {
