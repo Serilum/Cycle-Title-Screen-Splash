@@ -1,4 +1,4 @@
-package com.natamus.cycletitlescreensplash.forge.mixin;
+package com.natamus.cycletitlescreensplash.mixin;
 
 import com.natamus.cycletitlescreensplash.config.ConfigHandler;
 import net.minecraft.client.gui.screens.Screen;
@@ -28,7 +28,7 @@ public abstract class TitleScreenMixin extends Screen {
 		if (tickCount % ConfigHandler.ticksBetweenSplashCycle != 0) {
 			return;
 		}
-		
+
 		this.splash = this.minecraft.getSplashManager().getSplash();
 		tickCount = 0;
 	}
