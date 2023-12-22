@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cycletitlescreensplash",
-  "version": "1.1",
+  "version": "1.2",
 
   "name": "Cycle Title Screen Splash",
   "description": "The splash text on the main menu will keep changing after a configurable delay.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.cycletitlescreensplash.ModFabric" ], "modmenu": [ "com.natamus.cycletitlescreensplash.fabric.config.IntegrateModMenu" ] },
   "mixins": [
-    "cycletitlescreensplash_fabric.mixins.json"
+    "cycletitlescreensplash.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.26"
   },
 
   "custom": {
