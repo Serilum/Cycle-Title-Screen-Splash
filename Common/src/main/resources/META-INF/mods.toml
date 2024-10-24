@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Cycle%20Title%20Screen%20Splash"
+logoFile="icon.png"
+
+[[mods]]
+modId="cycletitlescreensplash"
+version="1.3"
+displayName="Cycle Title Screen Splash"
+displayURL="https://serilum.com/mod/cycle-title-screen-splash"
+authors="Rick South"
+description='''The splash text on the main menu will keep changing after a configurable delay.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, kate1073, Michael W. S., Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.cycletitlescreensplash]]
+    modId="collective"
+    mandatory=true
+    versionRange="[7.86,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cycletitlescreensplash]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.2,1.21.3]"
+    ordering="NONE"
+    side="BOTH"
