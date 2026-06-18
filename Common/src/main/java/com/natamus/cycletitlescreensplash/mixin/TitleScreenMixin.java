@@ -30,7 +30,7 @@ public abstract class TitleScreenMixin extends Screen {
 			return;
 		}
 
-		this.splash = this.minecraft.getSplashManager().getSplash();
+		this.splash = this.minecraft.gui.splashManager().getSplash();
 		tickCount = 0;
 	}
 }
