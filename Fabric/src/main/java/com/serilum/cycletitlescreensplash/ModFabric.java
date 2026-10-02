@@ -1,8 +1,8 @@
-package com.natamus.cycletitlescreensplash;
+package com.serilum.cycletitlescreensplash;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.cycletitlescreensplash.util.Reference;
+import com.serilum.cycletitlescreensplash.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
