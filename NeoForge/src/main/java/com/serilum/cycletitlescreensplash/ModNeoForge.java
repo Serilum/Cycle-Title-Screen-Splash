@@ -1,9 +1,9 @@
-package com.natamus.cycletitlescreensplash;
+package com.serilum.cycletitlescreensplash;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.cycletitlescreensplash.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.cycletitlescreensplash.util.Reference;
+import com.serilum.cycletitlescreensplash.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.cycletitlescreensplash.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

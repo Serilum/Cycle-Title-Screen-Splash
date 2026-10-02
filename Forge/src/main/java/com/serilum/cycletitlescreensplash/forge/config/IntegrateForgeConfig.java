@@ -1,7 +1,7 @@
-package com.natamus.cycletitlescreensplash.forge.config;
+package com.serilum.cycletitlescreensplash.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.cycletitlescreensplash.util.Reference;
+import com.serilum.cycletitlescreensplash.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
