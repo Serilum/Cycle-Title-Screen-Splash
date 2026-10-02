@@ -1,9 +1,9 @@
-package com.natamus.cycletitlescreensplash;
+package com.serilum.cycletitlescreensplash;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.cycletitlescreensplash.forge.config.IntegrateForgeConfig;
-import com.natamus.cycletitlescreensplash.util.Reference;
+import com.serilum.cycletitlescreensplash.forge.config.IntegrateForgeConfig;
+import com.serilum.cycletitlescreensplash.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
