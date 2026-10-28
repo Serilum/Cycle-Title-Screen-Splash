@@ -1,6 +1,6 @@
-package com.natamus.cycletitlescreensplash;
+package com.serilum.cycletitlescreensplash;
 
-import com.natamus.cycletitlescreensplash.config.ConfigHandler;
+import com.serilum.cycletitlescreensplash.config.ConfigHandler;
 
 public class ModCommon {
 

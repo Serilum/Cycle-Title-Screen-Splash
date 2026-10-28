@@ -1,6 +1,6 @@
-package com.natamus.cycletitlescreensplash.mixin;
+package com.serilum.cycletitlescreensplash.mixin;
 
-import com.natamus.cycletitlescreensplash.config.ConfigHandler;
+import com.serilum.cycletitlescreensplash.config.ConfigHandler;
 import net.minecraft.client.gui.components.SplashRenderer;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.TitleScreen;
